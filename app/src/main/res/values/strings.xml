@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name" translatable="false">Jaramba Driver</string>
+    <string name="image" translatable="false">image</string>
+    <string name="petualangan_seru_segera_dimulai">Selamat Menjadi Bagian Dari Petualangan Seru</string>
+    <string name="nikmati_kemudahan_perjalananmu_hingga_lokasi_tujuanmu_lewat_satu_aplikasi">Nikmati kemudahan perjalananmu hingga lokasi tujuanmu lewat satu aplikasi</string>
+    <string name="email">Username</string>
+    <string name="password">Masukkan OTP</string>
+    <string name="masuk">masuk</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="simpan_email_dan_password">Simpan email dan password</string>
+    <string name="lupa_password">Lupa password</string>
+    <string name="daftar">daftar</string>
+    <string name="jangan_khawatir_akun_anda_aman">Jangan khawatir, akun anda aman</string>
+    <string name="kembali_ke_halaman_login">Kembali ke halaman Login</string>
+    <string name="lengkapi_data_dirimu_di_bawah_ini_ya">Lengkapi data dirimu di bawah ini, ya</string>
+    <string name="username">Username</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="masukkan_ulang_kata_sandi">Masukkan ulang kata sandi</string>
+    <string name="saya_telah_memiliki_akun">Saya telah memiliki akun</string>
+    <string name="saya_belum_memiliki_akun">Saya belum memiliki akun</string>
+    <string name="konformasi">konformasi</string>
+    <string name="title_activity_beranda">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="beranda">Beranda</string>
+    <string name="trip">Trip</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="profil">Profile</string>
+    <string name="riwayat_perjalanan">History</string>
+    <string name="perjalanan">Trip</string>
+    <string name="pilih_transportasimu">Pilih Transportasimu</string>
+    <string name="button">button</string>
+    <string name="lokasi_anda">Lokasi Anda</string>
+    <string name="lokasi_tujuan">Lokasi Tujuan</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="error_email">Masukkan email dengan benar</string>
+    <string name="error_password">Kata sandi minimal 6 karakter</string>
+    <string name="password_not_match">Kata sandi tidak sama</string>
+    <string name="username_empty">Username tidak boleh kosong</string>
+    <string name="empty_phone">Nomor HP tidak boleh kosong</string>
+    <string name="registered">Berhasil Mendaftar</string>
+    <string name="messageRegistered">Akun anda telah berhasil terdaftar, namun anda harus memverifikasi akun anda terlebih dahulu dengan menekan link yang telah Jaramba kirimkan pada email anda</string>
+    <string name="confirmed">Email Terkonfirmasi</string>
+    <string name="messageConfirmed">Silahkan buka email anda, Jaramba telah mengirimkan email untuk mengubah password akun anda</string>
+    <string name="logout">Logout</string>
+    <string name="ganti_password">Ganti Password</string>
+    <string name="no_handphone">No Handphone</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="error_current_location">Lokasi saat ini tidak boleh kosong</string>
+    <string name="error_destination">Lokasi tujuan tidak boleh kosong</string>
+    <string name="instant_transportation_detail">Detail Transportasi Instan</string>
+    <string name="moda_transportasi">Moda Transportasi: Travel dan Bus</string>
+    <string name="lokasi_awal">Lokasi Awal</string>
+    <string name="tanggal_keberangkatan">Tanggal keberangkatan</string>
+    <string name="total_penumpang">Total Penumpang</string>
+    <string name="metode_pembayaran">Metode Pembayaran</string>
+    <string name="let_start_your_trip">Let Start Your Trip</string>
+    <string name="total_harga_rp">Total Harga: Rp.</string>
+    <string name="error_max_person">Maksimal 4 penumpang</string>
+    <string name="kembali_ke_dashboard">Kembali ke Dashboard</string>
+    <string name="tambah">Tambah</string>
+    <string name="title_history_detail">Detail Riwayat Trip</string>
+    <string name="beri_penilaian">beri penilaian</string>
+    <string name="batal">Batal</string>
+    <string name="silahkan_masukan_penilaian_anda_terhadap_driver">Silahkan masukan penilaian anda terhadap Driver</string>
+    <string name="umpan_balik">Umpan Balik</string>
+    <string name="tidak_ada_riwayat_trip">Tidak Ada Riwayat Trip</string>
+
+    <string-array name="metode_pembayaran">
+        <item>Cash</item>
+        <item>E-Money</item>
+        <item>OVO</item>
+        <item>Go-Pay</item>
+        <item>Link-aja</item>
+    </string-array>
+
+    <string-array name="person_total">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="title_activity_homepage">MainActivity</string>
+    <string name="empty_username">Username tidak boleh kosong</string>
+    <string name="empty_otp">OTP tidak boleh kosong</string>
+    <string name="title_activity_homepage2">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trayek">Trayek</string>
+    <string name="plat">Plat</string>
+
+</resources>

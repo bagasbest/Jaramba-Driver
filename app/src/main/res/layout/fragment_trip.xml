@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragment.TripFragment">
+
+
+    <ImageView
+        android:id="@+id/cityTimeIv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.3"
+        android:contentDescription="@string/image"
+        android:scaleType="fitXY"
+        android:src="@drawable/city_morning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/jarambaLogoWhiteIv"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/logo_jaramba_fix_03"
+        app:layout_constraintBottom_toBottomOf="@+id/cityTimeIv"
+        app:layout_constraintEnd_toEndOf="@id/cityTimeIv"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@id/cityTimeIv"
+        app:layout_constraintTop_toTopOf="@+id/cityTimeIv"
+        app:layout_constraintVertical_bias="0.165" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/trayek"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <AutoCompleteTextView
+            android:id="@+id/trayekEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/trayek"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/plat"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/trayek">
+
+        <AutoCompleteTextView
+            android:id="@+id/platEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/plat"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/startTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="Mulai Perjalanan"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plat" />
+
+    <Button
+        android:id="@+id/finishTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="Selesaikan Perjalanan"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plat" />
+
+
+    <Button
+        android:id="@+id/passanger"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nunitosans_regular"
+        android:text="Cari Penumpang"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finishTrip" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_rounded_full_side"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jarambaLogoWhiteIv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
